@@ -1,0 +1,6 @@
+seed=45 setting=n500/large
+  lambda=15 r2=0.9739 saved=/home/tao/DIPS_PR_review_experiments_20260818/results/synthetic_rmse_lambda/seed_45/n500__large.json
+seed=45 setting=n1500/large
+  lambda=7 r2=0.9518 saved=/home/tao/DIPS_PR_review_experiments_20260818/results/synthetic_rmse_lambda/seed_45/n1500__large.json
+seed=45 setting=n3000/large
+  lambda=10 r2=0.8294 saved=/home/tao/DIPS_PR_review_experiments_20260818/results/synthetic_rmse_lambda/seed_45/n3000__large.json

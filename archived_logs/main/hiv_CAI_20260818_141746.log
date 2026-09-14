@@ -1,0 +1,9 @@
+  CAI/LEN model=Ridge tuning
+  CAI/LEN model=Lasso tuning
+  CAI/LEN model=ElasticNet tuning
+  CAI/LEN model=PoissonGLM tuning
+  CAI/LEN model=RBF-SVR tuning
+  CAI/LEN model=RandomForest tuning
+  CAI/LEN model=MLP tuning
+  CAI/LEN model=DIPS-PR fitting lambda=0.5
+  saved=results/hiv/CAI/LEN.json

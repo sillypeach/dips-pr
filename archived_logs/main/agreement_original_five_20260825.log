@@ -1,0 +1,30 @@
+seed=42 config=D1
+seed=42 config=D2
+seed=42 config=D3
+seed=42 config=D4
+seed=42 config=D5
+saved=results/agreement_multiseed/seed_42.json
+seed=99 config=D1
+seed=99 config=D2
+seed=99 config=D3
+seed=99 config=D4
+seed=99 config=D5
+saved=results/agreement_multiseed/seed_99.json
+seed=137 config=D1
+seed=137 config=D2
+seed=137 config=D3
+seed=137 config=D4
+seed=137 config=D5
+saved=results/agreement_multiseed/seed_137.json
+seed=256 config=D1
+seed=256 config=D2
+seed=256 config=D3
+seed=256 config=D4
+seed=256 config=D5
+saved=results/agreement_multiseed/seed_256.json
+seed=512 config=D1
+seed=512 config=D2
+seed=512 config=D3
+seed=512 config=D4
+seed=512 config=D5
+saved=results/agreement_multiseed/seed_512.json

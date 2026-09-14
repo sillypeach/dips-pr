@@ -1,0 +1,14 @@
+2026-09-12T10:16:33+09:00
+jupiter
+df3659227b3bf88329a4da9703277f64ba425e4f2a1f80a5f6bdb3e9647c60c9  synthetic_multiseed.py
+1980436d40d931bc06f975908e620f5af21e6fdad191da688c5d660698e765aa  synthetic_structure_refit.py
+40620876f25c9e5b642165297e03ab068fa80baa72f81d3060152045427157e8  model.py
+f5abc75585d578ac27b4e697bf075f633e0d2b8dde7b7df87ebd3846c00d4217  common.py
+12c7210df5e04d95adbb7173ecd099d2678fde752d9edc050dd11383a502728d  utils.py
+COMMAND: /home/tao/LARS_Poisson/.venv/bin/python -u synthetic_structure_refit.py --seed 42 --original-dir results/synthetic --output-dir results/teacher_structure_20260912 --sizes n500 --weights small
+refit seed=42 setting=n500__small
+saved=results/teacher_structure_20260912/seed_42/n500__small.json matched=True
+
+real	0m26.856s
+user	0m31.880s
+sys	0m0.126s

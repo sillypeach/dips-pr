@@ -1,0 +1,90 @@
+  setting=n500/small train=350 test=150
+    baseline=Ridge tuning
+    baseline=Lasso tuning
+    baseline=ElasticNet tuning
+    baseline=PoissonGLM tuning
+    baseline=RBF-SVR tuning
+    baseline=RandomForest tuning
+    baseline=MLP tuning
+    model=DIPS-PR fitting
+  saved=results/synthetic/seed_43/n500__small.json
+  setting=n500/medium train=350 test=150
+    baseline=Ridge tuning
+    baseline=Lasso tuning
+    baseline=ElasticNet tuning
+    baseline=PoissonGLM tuning
+    baseline=RBF-SVR tuning
+    baseline=RandomForest tuning
+    baseline=MLP tuning
+    model=DIPS-PR fitting
+  saved=results/synthetic/seed_43/n500__medium.json
+  setting=n500/large train=350 test=150
+    baseline=Ridge tuning
+    baseline=Lasso tuning
+    baseline=ElasticNet tuning
+    baseline=PoissonGLM tuning
+    baseline=RBF-SVR tuning
+    baseline=RandomForest tuning
+    baseline=MLP tuning
+    model=DIPS-PR fitting
+  saved=results/synthetic/seed_43/n500__large.json
+  setting=n1500/small train=1050 test=450
+    baseline=Ridge tuning
+    baseline=Lasso tuning
+    baseline=ElasticNet tuning
+    baseline=PoissonGLM tuning
+    baseline=RBF-SVR tuning
+    baseline=RandomForest tuning
+    baseline=MLP tuning
+    model=DIPS-PR fitting
+  saved=results/synthetic/seed_43/n1500__small.json
+  setting=n1500/medium train=1050 test=450
+    baseline=Ridge tuning
+    baseline=Lasso tuning
+    baseline=ElasticNet tuning
+    baseline=PoissonGLM tuning
+    baseline=RBF-SVR tuning
+    baseline=RandomForest tuning
+    baseline=MLP tuning
+    model=DIPS-PR fitting
+  saved=results/synthetic/seed_43/n1500__medium.json
+  setting=n1500/large train=1050 test=450
+    baseline=Ridge tuning
+    baseline=Lasso tuning
+    baseline=ElasticNet tuning
+    baseline=PoissonGLM tuning
+    baseline=RBF-SVR tuning
+    baseline=RandomForest tuning
+    baseline=MLP tuning
+    model=DIPS-PR fitting
+  saved=results/synthetic/seed_43/n1500__large.json
+  setting=n3000/small train=2100 test=900
+    baseline=Ridge tuning
+    baseline=Lasso tuning
+    baseline=ElasticNet tuning
+    baseline=PoissonGLM tuning
+    baseline=RBF-SVR tuning
+    baseline=RandomForest tuning
+    baseline=MLP tuning
+    model=DIPS-PR fitting
+  saved=results/synthetic/seed_43/n3000__small.json
+  setting=n3000/medium train=2100 test=900
+    baseline=Ridge tuning
+    baseline=Lasso tuning
+    baseline=ElasticNet tuning
+    baseline=PoissonGLM tuning
+    baseline=RBF-SVR tuning
+    baseline=RandomForest tuning
+    baseline=MLP tuning
+    model=DIPS-PR fitting
+  saved=results/synthetic/seed_43/n3000__medium.json
+  setting=n3000/large train=2100 test=900
+    baseline=Ridge tuning
+    baseline=Lasso tuning
+    baseline=ElasticNet tuning
+    baseline=PoissonGLM tuning
+    baseline=RBF-SVR tuning
+    baseline=RandomForest tuning
+    baseline=MLP tuning
+    model=DIPS-PR fitting
+  saved=results/synthetic/seed_43/n3000__large.json

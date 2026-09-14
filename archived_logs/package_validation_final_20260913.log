@@ -1,0 +1,20 @@
+PACKAGE_VALIDATION 2026-09-13T10:37:55+09:00
+Python 3.10.12
+versions 2.2.6 1.15.3 1.7.2 2.3.3 1.5.3
+SHELL_SYNTAX_OK
+ENTRYPOINT_OK synthetic_multiseed.py
+ENTRYPOINT_OK hiv_nonlinear_baselines.py
+ENTRYPOINT_OK agreement_multiseed.py
+ENTRYPOINT_OK aggregate_results.py
+ENTRYPOINT_OK summarize_revision_results.py
+ENTRYPOINT_OK synthetic_structure_refit.py
+ENTRYPOINT_OK aggregate_structural_audit.py
+ENTRYPOINT_OK plot_agreement_figure.py
+{
+  "all_refits_match_original": true,
+  "audited_runs": 45,
+  "maximum_absolute_nz_difference": 0,
+  "maximum_pseudo_r2_absolute_difference": 0.0,
+  "maximum_r2_absolute_difference": 0.0
+}
+PACKAGE_VALIDATION_OK

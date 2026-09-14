@@ -1,0 +1,72 @@
+  PI/FPV model=Ridge tuning
+  PI/FPV model=Lasso tuning
+  PI/FPV model=ElasticNet tuning
+  PI/FPV model=PoissonGLM tuning
+  PI/FPV model=RBF-SVR tuning
+  PI/FPV model=RandomForest tuning
+  PI/FPV model=MLP tuning
+  PI/FPV model=DIPS-PR fitting lambda=500
+  saved=results/hiv/PI/FPV.json
+  PI/ATV model=Ridge tuning
+  PI/ATV model=Lasso tuning
+  PI/ATV model=ElasticNet tuning
+  PI/ATV model=PoissonGLM tuning
+  PI/ATV model=RBF-SVR tuning
+  PI/ATV model=RandomForest tuning
+  PI/ATV model=MLP tuning
+  PI/ATV model=DIPS-PR fitting lambda=500
+  saved=results/hiv/PI/ATV.json
+  PI/IDV model=Ridge tuning
+  PI/IDV model=Lasso tuning
+  PI/IDV model=ElasticNet tuning
+  PI/IDV model=PoissonGLM tuning
+  PI/IDV model=RBF-SVR tuning
+  PI/IDV model=RandomForest tuning
+  PI/IDV model=MLP tuning
+  PI/IDV model=DIPS-PR fitting lambda=300
+  saved=results/hiv/PI/IDV.json
+  PI/LPV model=Ridge tuning
+  PI/LPV model=Lasso tuning
+  PI/LPV model=ElasticNet tuning
+  PI/LPV model=PoissonGLM tuning
+  PI/LPV model=RBF-SVR tuning
+  PI/LPV model=RandomForest tuning
+  PI/LPV model=MLP tuning
+  PI/LPV model=DIPS-PR fitting lambda=300
+  saved=results/hiv/PI/LPV.json
+  PI/NFV model=Ridge tuning
+  PI/NFV model=Lasso tuning
+  PI/NFV model=ElasticNet tuning
+  PI/NFV model=PoissonGLM tuning
+  PI/NFV model=RBF-SVR tuning
+  PI/NFV model=RandomForest tuning
+  PI/NFV model=MLP tuning
+  PI/NFV model=DIPS-PR fitting lambda=300
+  saved=results/hiv/PI/NFV.json
+  PI/SQV model=Ridge tuning
+  PI/SQV model=Lasso tuning
+  PI/SQV model=ElasticNet tuning
+  PI/SQV model=PoissonGLM tuning
+  PI/SQV model=RBF-SVR tuning
+  PI/SQV model=RandomForest tuning
+  PI/SQV model=MLP tuning
+  PI/SQV model=DIPS-PR fitting lambda=700
+  saved=results/hiv/PI/SQV.json
+  PI/TPV model=Ridge tuning
+  PI/TPV model=Lasso tuning
+  PI/TPV model=ElasticNet tuning
+  PI/TPV model=PoissonGLM tuning
+  PI/TPV model=RBF-SVR tuning
+  PI/TPV model=RandomForest tuning
+  PI/TPV model=MLP tuning
+  PI/TPV model=DIPS-PR fitting lambda=500
+  saved=results/hiv/PI/TPV.json
+  PI/DRV model=Ridge tuning
+  PI/DRV model=Lasso tuning
+  PI/DRV model=ElasticNet tuning
+  PI/DRV model=PoissonGLM tuning
+  PI/DRV model=RBF-SVR tuning
+  PI/DRV model=RandomForest tuning
+  PI/DRV model=MLP tuning
+  PI/DRV model=DIPS-PR fitting lambda=500
+  saved=results/hiv/PI/DRV.json

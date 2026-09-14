@@ -1,0 +1,941 @@
+{
+  "best_lambda_base": 5.0,
+  "best_lambda_effective": 30.0,
+  "elapsed_seconds": 93.4318189038895,
+  "metrics": {
+    "Deviance": 997.6591515599944,
+    "MAE": 0.9466144765889062,
+    "PseudoR2": 0.3700108851748005,
+    "R2": 0.4443677649308758,
+    "RMSE": 1.2463421248596827
+  },
+  "minimum_support": 84,
+  "n_test": 900,
+  "n_total": 3000,
+  "n_train": 2100,
+  "original_checkpoint": "/home/tao/DIPS_PR_review_experiments_20260818/results/synthetic/seed_46/n3000__small.json",
+  "recovery": {
+    "closure_f1": 0.17647058823529416,
+    "closure_precision": 0.1,
+    "closure_recall": 0.75,
+    "closure_top10_recall": 0.625,
+    "closure_top20_recall": 0.625,
+    "closure_top50_recall": 0.75,
+    "exact_f1": 0.17647058823529416,
+    "exact_precision": 0.1,
+    "exact_recall": 0.75,
+    "exact_top10_recall": 0.625,
+    "exact_top20_recall": 0.625,
+    "exact_top50_recall": 0.75,
+    "mean_true_pattern_rank": 11.666666666666666,
+    "num_hits_closure": 6.0,
+    "num_hits_exact": 6.0,
+    "num_hits_superset": 6.0,
+    "num_selected_nz": 60.0,
+    "precision_at_10": 0.5,
+    "precision_at_20": 0.25,
+    "precision_at_50": 0.12,
+    "precision_at_8": 0.625,
+    "recall_at_10": 0.625,
+    "recall_at_20": 0.625,
+    "recall_at_50": 0.75,
+    "recall_at_8": 0.625,
+    "superset_f1": 0.17647058823529416,
+    "superset_precision": 0.1,
+    "superset_recall": 0.75,
+    "superset_top10_recall": 0.625,
+    "superset_top20_recall": 0.625,
+    "superset_top50_recall": 0.75,
+    "true_pattern_ranks": [
+      8,
+      null,
+      3,
+      null,
+      48,
+      1,
+      4,
+      6
+    ]
+  },
+  "reproduction_checks": {
+    "matches_original": true,
+    "nz_difference": 0,
+    "pseudo_r2_absolute_difference": 0.0,
+    "r2_absolute_difference": 0.0
+  },
+  "seed": 46,
+  "size": "n3000",
+  "structural_pattern_audit": {
+    "active_patterns": [
+      {
+        "category": "exact",
+        "coefficient": -0.35440022126597664,
+        "itemset": [
+          8,
+          16,
+          29,
+          43
+        ],
+        "rank": 1,
+        "related_truth_indices": [
+          8
+        ],
+        "support": 567
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": 0.34584497475284015,
+        "itemset": [
+          6,
+          33
+        ],
+        "rank": 2,
+        "related_truth_indices": [
+          6
+        ],
+        "support": 527
+      },
+      {
+        "category": "exact",
+        "coefficient": 0.2952844484149805,
+        "itemset": [
+          3,
+          7,
+          15,
+          22
+        ],
+        "rank": 3,
+        "related_truth_indices": [
+          1
+        ],
+        "support": 738
+      },
+      {
+        "category": "exact",
+        "coefficient": -0.23429110127310657,
+        "itemset": [
+          10,
+          11,
+          12,
+          19
+        ],
+        "rank": 4,
+        "related_truth_indices": [
+          2
+        ],
+        "support": 611
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": -0.21783322616553233,
+        "itemset": [
+          2,
+          31,
+          45
+        ],
+        "rank": 5,
+        "related_truth_indices": [
+          5
+        ],
+        "support": 698
+      },
+      {
+        "category": "exact",
+        "coefficient": 0.21046772260120516,
+        "itemset": [
+          25,
+          26,
+          37,
+          48
+        ],
+        "rank": 6,
+        "related_truth_indices": [
+          3
+        ],
+        "support": 806
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": -0.1851983326481052,
+        "itemset": [
+          2,
+          14
+        ],
+        "rank": 7,
+        "related_truth_indices": [
+          5
+        ],
+        "support": 709
+      },
+      {
+        "category": "exact",
+        "coefficient": 0.18177885092532958,
+        "itemset": [
+          1,
+          5,
+          9,
+          17
+        ],
+        "rank": 8,
+        "related_truth_indices": [
+          4
+        ],
+        "support": 575
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": 0.16113011477639325,
+        "itemset": [
+          4,
+          38
+        ],
+        "rank": 9,
+        "related_truth_indices": [
+          7
+        ],
+        "support": 612
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.15359870293503422,
+        "itemset": [
+          21,
+          26,
+          48
+        ],
+        "rank": 10,
+        "related_truth_indices": [
+          3,
+          7
+        ],
+        "support": 282
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": 0.14339727200648905,
+        "itemset": [
+          1,
+          9,
+          17
+        ],
+        "rank": 11,
+        "related_truth_indices": [
+          4
+        ],
+        "support": 577
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": 0.1311620366509333,
+        "itemset": [
+          1,
+          5
+        ],
+        "rank": 12,
+        "related_truth_indices": [
+          4
+        ],
+        "support": 582
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.11008855790054117,
+        "itemset": [
+          21,
+          22
+        ],
+        "rank": 13,
+        "related_truth_indices": [
+          1,
+          7
+        ],
+        "support": 329
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.09846499503913761,
+        "itemset": [
+          4,
+          9
+        ],
+        "rank": 14,
+        "related_truth_indices": [
+          4,
+          7
+        ],
+        "support": 241
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": 0.08734127069295465,
+        "itemset": [
+          26,
+          48
+        ],
+        "rank": 15,
+        "related_truth_indices": [
+          3
+        ],
+        "support": 820
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.07827250203633349,
+        "itemset": [
+          3,
+          37,
+          48
+        ],
+        "rank": 16,
+        "related_truth_indices": [
+          1,
+          3
+        ],
+        "support": 330
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": 0.07777307574384486,
+        "itemset": [
+          6,
+          55
+        ],
+        "rank": 17,
+        "related_truth_indices": [
+          6
+        ],
+        "support": 524
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": 0.07322544591660674,
+        "itemset": [
+          21
+        ],
+        "rank": 18,
+        "related_truth_indices": [
+          7
+        ],
+        "support": 722
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": -0.07271827819700767,
+        "itemset": [
+          12
+        ],
+        "rank": 19,
+        "related_truth_indices": [
+          2
+        ],
+        "support": 765
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": -0.06366878204826124,
+        "itemset": [
+          16
+        ],
+        "rank": 20,
+        "related_truth_indices": [
+          8
+        ],
+        "support": 718
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": -0.06074001717711236,
+        "itemset": [
+          12,
+          19
+        ],
+        "rank": 21,
+        "related_truth_indices": [
+          2
+        ],
+        "support": 624
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": -0.06072681981146537,
+        "itemset": [
+          29
+        ],
+        "rank": 22,
+        "related_truth_indices": [
+          8
+        ],
+        "support": 721
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": 0.05638822064846193,
+        "itemset": [
+          5
+        ],
+        "rank": 23,
+        "related_truth_indices": [
+          4
+        ],
+        "support": 738
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": 0.04308956943001807,
+        "itemset": [
+          3,
+          15,
+          22
+        ],
+        "rank": 24,
+        "related_truth_indices": [
+          1
+        ],
+        "support": 742
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": 0.04270378383998895,
+        "itemset": [
+          3
+        ],
+        "rank": 25,
+        "related_truth_indices": [
+          1
+        ],
+        "support": 856
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.041513150874764405,
+        "itemset": [
+          4,
+          6
+        ],
+        "rank": 26,
+        "related_truth_indices": [
+          6,
+          7
+        ],
+        "support": 225
+      },
+      {
+        "category": "disjoint",
+        "coefficient": 0.038861497707260925,
+        "itemset": [
+          99
+        ],
+        "rank": 27,
+        "related_truth_indices": [],
+        "support": 100
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": -0.034175445989692736,
+        "itemset": [
+          10
+        ],
+        "rank": 28,
+        "related_truth_indices": [
+          2
+        ],
+        "support": 765
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.03209120391901284,
+        "itemset": [
+          9,
+          15
+        ],
+        "rank": 29,
+        "related_truth_indices": [
+          1,
+          4
+        ],
+        "support": 317
+      },
+      {
+        "category": "disjoint",
+        "coefficient": -0.03193414832138375,
+        "itemset": [
+          23
+        ],
+        "rank": 30,
+        "related_truth_indices": [],
+        "support": 112
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": -0.028632054367630246,
+        "itemset": [
+          8,
+          31
+        ],
+        "rank": 31,
+        "related_truth_indices": [
+          5,
+          8
+        ],
+        "support": 284
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.028030948453136476,
+        "itemset": [
+          5,
+          45,
+          52
+        ],
+        "rank": 32,
+        "related_truth_indices": [
+          4,
+          5,
+          7
+        ],
+        "support": 95
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.02683954678100292,
+        "itemset": [
+          4,
+          33
+        ],
+        "rank": 33,
+        "related_truth_indices": [
+          6,
+          7
+        ],
+        "support": 220
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.02415635671619772,
+        "itemset": [
+          3,
+          15,
+          22,
+          37
+        ],
+        "rank": 34,
+        "related_truth_indices": [
+          1,
+          3
+        ],
+        "support": 331
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.0225395719231501,
+        "itemset": [
+          6,
+          17,
+          37
+        ],
+        "rank": 35,
+        "related_truth_indices": [
+          3,
+          4,
+          6
+        ],
+        "support": 97
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.022287098035162826,
+        "itemset": [
+          4,
+          6,
+          55
+        ],
+        "rank": 36,
+        "related_truth_indices": [
+          6,
+          7
+        ],
+        "support": 170
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.02191018556320598,
+        "itemset": [
+          3,
+          37
+        ],
+        "rank": 37,
+        "related_truth_indices": [
+          1,
+          3
+        ],
+        "support": 384
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.020169233769104334,
+        "itemset": [
+          5,
+          15
+        ],
+        "rank": 38,
+        "related_truth_indices": [
+          1,
+          4
+        ],
+        "support": 314
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.018237930883796123,
+        "itemset": [
+          1,
+          4,
+          17
+        ],
+        "rank": 39,
+        "related_truth_indices": [
+          4,
+          7
+        ],
+        "support": 187
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": -0.017947537394971565,
+        "itemset": [
+          14,
+          29
+        ],
+        "rank": 40,
+        "related_truth_indices": [
+          5,
+          8
+        ],
+        "support": 279
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.016402694584700988,
+        "itemset": [
+          9,
+          37
+        ],
+        "rank": 41,
+        "related_truth_indices": [
+          3,
+          4
+        ],
+        "support": 329
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.012979849163450423,
+        "itemset": [
+          3,
+          9
+        ],
+        "rank": 42,
+        "related_truth_indices": [
+          1,
+          4
+        ],
+        "support": 300
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.01192562766661083,
+        "itemset": [
+          17,
+          33,
+          37
+        ],
+        "rank": 43,
+        "related_truth_indices": [
+          3,
+          4,
+          6
+        ],
+        "support": 90
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.0110498924953881,
+        "itemset": [
+          6,
+          18,
+          22,
+          37
+        ],
+        "rank": 44,
+        "related_truth_indices": [
+          1,
+          3,
+          6
+        ],
+        "support": 101
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.009654062839876961,
+        "itemset": [
+          6,
+          22,
+          33
+        ],
+        "rank": 45,
+        "related_truth_indices": [
+          1,
+          6
+        ],
+        "support": 229
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": 0.009592738683651672,
+        "itemset": [
+          26,
+          37,
+          48
+        ],
+        "rank": 46,
+        "related_truth_indices": [
+          3
+        ],
+        "support": 807
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.008977358127092272,
+        "itemset": [
+          3,
+          9,
+          37
+        ],
+        "rank": 47,
+        "related_truth_indices": [
+          1,
+          3,
+          4
+        ],
+        "support": 137
+      },
+      {
+        "category": "exact",
+        "coefficient": 0.00816502696036682,
+        "itemset": [
+          6,
+          18,
+          33,
+          55
+        ],
+        "rank": 48,
+        "related_truth_indices": [
+          6
+        ],
+        "support": 512
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.007993859296227441,
+        "itemset": [
+          9,
+          25,
+          26
+        ],
+        "rank": 49,
+        "related_truth_indices": [
+          3,
+          4
+        ],
+        "support": 276
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.007893940310455363,
+        "itemset": [
+          21,
+          45
+        ],
+        "rank": 50,
+        "related_truth_indices": [
+          5,
+          7
+        ],
+        "support": 282
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.0070473187688376,
+        "itemset": [
+          5,
+          6
+        ],
+        "rank": 51,
+        "related_truth_indices": [
+          4,
+          6
+        ],
+        "support": 225
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.006876273891243353,
+        "itemset": [
+          1,
+          17,
+          52
+        ],
+        "rank": 52,
+        "related_truth_indices": [
+          4,
+          7
+        ],
+        "support": 197
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": -0.004616489464406311,
+        "itemset": [
+          8,
+          14
+        ],
+        "rank": 53,
+        "related_truth_indices": [
+          5,
+          8
+        ],
+        "support": 281
+      },
+      {
+        "category": "strict_subset",
+        "coefficient": -0.0032708200325923973,
+        "itemset": [
+          8,
+          43
+        ],
+        "rank": 54,
+        "related_truth_indices": [
+          8
+        ],
+        "support": 579
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.0029969875113298157,
+        "itemset": [
+          21,
+          33
+        ],
+        "rank": 55,
+        "related_truth_indices": [
+          6,
+          7
+        ],
+        "support": 218
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": -0.002816357734113784,
+        "itemset": [
+          14,
+          16
+        ],
+        "rank": 56,
+        "related_truth_indices": [
+          5,
+          8
+        ],
+        "support": 276
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.0013348577573448995,
+        "itemset": [
+          1,
+          4,
+          17,
+          21
+        ],
+        "rank": 57,
+        "related_truth_indices": [
+          4,
+          7
+        ],
+        "support": 157
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": -0.0005866203190186298,
+        "itemset": [
+          4,
+          8,
+          16,
+          25
+        ],
+        "rank": 58,
+        "related_truth_indices": [
+          3,
+          7,
+          8
+        ],
+        "support": 97
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 0.0003495399978538324,
+        "itemset": [
+          15,
+          21,
+          45
+        ],
+        "rank": 59,
+        "related_truth_indices": [
+          1,
+          5,
+          7
+        ],
+        "support": 127
+      },
+      {
+        "category": "partial_overlap",
+        "coefficient": 4.008456623128746e-06,
+        "itemset": [
+          3,
+          9,
+          37,
+          48
+        ],
+        "rank": 60,
+        "related_truth_indices": [
+          1,
+          3,
+          4
+        ],
+        "support": 115
+      }
+    ],
+    "category_counts": {
+      "disjoint": 2,
+      "exact": 6,
+      "partial_overlap": 33,
+      "strict_subset": 19,
+      "strict_superset": 0
+    },
+    "category_fractions": {
+      "disjoint": 0.03333333333333333,
+      "exact": 0.1,
+      "partial_overlap": 0.55,
+      "strict_subset": 0.31666666666666665,
+      "strict_superset": 0.0
+    },
+    "classification_priority": [
+      "exact",
+      "strict_subset",
+      "strict_superset",
+      "partial_overlap",
+      "disjoint"
+    ],
+    "num_active_patterns": 60
+  },
+  "weight": "small"
+}

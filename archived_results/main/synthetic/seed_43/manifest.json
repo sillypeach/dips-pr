@@ -1,0 +1,14 @@
+{
+  "completed": {
+    "n1500__large": "results/synthetic/seed_43/n1500__large.json",
+    "n1500__medium": "results/synthetic/seed_43/n1500__medium.json",
+    "n1500__small": "results/synthetic/seed_43/n1500__small.json",
+    "n3000__large": "results/synthetic/seed_43/n3000__large.json",
+    "n3000__medium": "results/synthetic/seed_43/n3000__medium.json",
+    "n3000__small": "results/synthetic/seed_43/n3000__small.json",
+    "n500__large": "results/synthetic/seed_43/n500__large.json",
+    "n500__medium": "results/synthetic/seed_43/n500__medium.json",
+    "n500__small": "results/synthetic/seed_43/n500__small.json"
+  },
+  "seed": 43
+}

@@ -1,0 +1,17 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Generated checkpoints and logs. Curated summaries are kept in archived_results/.
+results/
+revision_tables/
+logs/
+
+# Downloaded Stanford HIVDB files are not redistributed.
+data/*_DataSet.txt
+data/*_DataSet.Full.txt
+

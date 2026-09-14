@@ -1,0 +1,45 @@
+  INI/RAL model=Ridge tuning
+  INI/RAL model=Lasso tuning
+  INI/RAL model=ElasticNet tuning
+  INI/RAL model=PoissonGLM tuning
+  INI/RAL model=RBF-SVR tuning
+  INI/RAL model=RandomForest tuning
+  INI/RAL model=MLP tuning
+  INI/RAL model=DIPS-PR fitting lambda=10
+  saved=results/hiv/INI/RAL.json
+  INI/EVG model=Ridge tuning
+  INI/EVG model=Lasso tuning
+  INI/EVG model=ElasticNet tuning
+  INI/EVG model=PoissonGLM tuning
+  INI/EVG model=RBF-SVR tuning
+  INI/EVG model=RandomForest tuning
+  INI/EVG model=MLP tuning
+  INI/EVG model=DIPS-PR fitting lambda=10
+  saved=results/hiv/INI/EVG.json
+  INI/DTG model=Ridge tuning
+  INI/DTG model=Lasso tuning
+  INI/DTG model=ElasticNet tuning
+  INI/DTG model=PoissonGLM tuning
+  INI/DTG model=RBF-SVR tuning
+  INI/DTG model=RandomForest tuning
+  INI/DTG model=MLP tuning
+  INI/DTG model=DIPS-PR fitting lambda=5
+  saved=results/hiv/INI/DTG.json
+  INI/BIC model=Ridge tuning
+  INI/BIC model=Lasso tuning
+  INI/BIC model=ElasticNet tuning
+  INI/BIC model=PoissonGLM tuning
+  INI/BIC model=RBF-SVR tuning
+  INI/BIC model=RandomForest tuning
+  INI/BIC model=MLP tuning
+  INI/BIC model=DIPS-PR fitting lambda=0.5
+  saved=results/hiv/INI/BIC.json
+  INI/CAB model=Ridge tuning
+  INI/CAB model=Lasso tuning
+  INI/CAB model=ElasticNet tuning
+  INI/CAB model=PoissonGLM tuning
+  INI/CAB model=RBF-SVR tuning
+  INI/CAB model=RandomForest tuning
+  INI/CAB model=MLP tuning
+  INI/CAB model=DIPS-PR fitting lambda=10
+  saved=results/hiv/INI/CAB.json

@@ -1,0 +1,5 @@
+skip completed n500/large
+seed=42 setting=n1500/large
+  selected_k=100 saved=results/synthetic_compact_refit_ridge/seed_42/n1500__large.json
+seed=42 setting=n3000/large
+  selected_k=20 saved=results/synthetic_compact_refit_ridge/seed_42/n3000__large.json

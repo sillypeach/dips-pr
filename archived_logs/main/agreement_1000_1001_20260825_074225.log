@@ -1,0 +1,12 @@
+seed=1000 config=D1
+seed=1000 config=D2
+seed=1000 config=D3
+seed=1000 config=D4
+seed=1000 config=D5
+saved=/home/tao/DIPS_PR_review_experiments_20260818/results/agreement_multiseed/seed_1000.json
+seed=1001 config=D1
+seed=1001 config=D2
+seed=1001 config=D3
+seed=1001 config=D4
+seed=1001 config=D5
+saved=/home/tao/DIPS_PR_review_experiments_20260818/results/agreement_multiseed/seed_1001.json

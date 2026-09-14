@@ -1,0 +1,26 @@
+2026-09-12T13:21:36+09:00
+jupiter
+df3659227b3bf88329a4da9703277f64ba425e4f2a1f80a5f6bdb3e9647c60c9  /home/tao/DIPS_PR_review_experiments_20260818/synthetic_multiseed.py
+1980436d40d931bc06f975908e620f5af21e6fdad191da688c5d660698e765aa  /home/tao/DIPS_PR_review_experiments_20260818/synthetic_structure_refit.py
+40620876f25c9e5b642165297e03ab068fa80baa72f81d3060152045427157e8  /home/tao/DIPS_PR_review_experiments_20260818/model.py
+f5abc75585d578ac27b4e697bf075f633e0d2b8dde7b7df87ebd3846c00d4217  /home/tao/DIPS_PR_review_experiments_20260818/common.py
+12c7210df5e04d95adbb7173ecd099d2678fde752d9edc050dd11383a502728d  /home/tao/DIPS_PR_review_experiments_20260818/utils.py
+COMMAND: seed=44 output=/home/tao/DIPS_PR_review_experiments_20260818/results/teacher_structure_20260912
+refit seed=44 setting=n500__small
+saved=/home/tao/DIPS_PR_review_experiments_20260818/results/teacher_structure_20260912/seed_44/n500__small.json matched=True
+refit seed=44 setting=n500__medium
+saved=/home/tao/DIPS_PR_review_experiments_20260818/results/teacher_structure_20260912/seed_44/n500__medium.json matched=True
+refit seed=44 setting=n500__large
+saved=/home/tao/DIPS_PR_review_experiments_20260818/results/teacher_structure_20260912/seed_44/n500__large.json matched=True
+refit seed=44 setting=n1500__small
+saved=/home/tao/DIPS_PR_review_experiments_20260818/results/teacher_structure_20260912/seed_44/n1500__small.json matched=True
+refit seed=44 setting=n1500__medium
+saved=/home/tao/DIPS_PR_review_experiments_20260818/results/teacher_structure_20260912/seed_44/n1500__medium.json matched=True
+refit seed=44 setting=n1500__large
+saved=/home/tao/DIPS_PR_review_experiments_20260818/results/teacher_structure_20260912/seed_44/n1500__large.json matched=True
+refit seed=44 setting=n3000__small
+saved=/home/tao/DIPS_PR_review_experiments_20260818/results/teacher_structure_20260912/seed_44/n3000__small.json matched=True
+refit seed=44 setting=n3000__medium
+saved=/home/tao/DIPS_PR_review_experiments_20260818/results/teacher_structure_20260912/seed_44/n3000__medium.json matched=True
+refit seed=44 setting=n3000__large
+saved=/home/tao/DIPS_PR_review_experiments_20260818/results/teacher_structure_20260912/seed_44/n3000__large.json matched=True

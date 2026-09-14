@@ -1,0 +1,54 @@
+  NRTI/3TC model=Ridge tuning
+  NRTI/3TC model=Lasso tuning
+  NRTI/3TC model=ElasticNet tuning
+  NRTI/3TC model=PoissonGLM tuning
+  NRTI/3TC model=RBF-SVR tuning
+  NRTI/3TC model=RandomForest tuning
+  NRTI/3TC model=MLP tuning
+  NRTI/3TC model=DIPS-PR fitting lambda=500
+  saved=results/hiv/NRTI/3TC.json
+  NRTI/ABC model=Ridge tuning
+  NRTI/ABC model=Lasso tuning
+  NRTI/ABC model=ElasticNet tuning
+  NRTI/ABC model=PoissonGLM tuning
+  NRTI/ABC model=RBF-SVR tuning
+  NRTI/ABC model=RandomForest tuning
+  NRTI/ABC model=MLP tuning
+  NRTI/ABC model=DIPS-PR fitting lambda=15
+  saved=results/hiv/NRTI/ABC.json
+  NRTI/AZT model=Ridge tuning
+  NRTI/AZT model=Lasso tuning
+  NRTI/AZT model=ElasticNet tuning
+  NRTI/AZT model=PoissonGLM tuning
+  NRTI/AZT model=RBF-SVR tuning
+  NRTI/AZT model=RandomForest tuning
+  NRTI/AZT model=MLP tuning
+  NRTI/AZT model=DIPS-PR fitting lambda=300
+  saved=results/hiv/NRTI/AZT.json
+  NRTI/D4T model=Ridge tuning
+  NRTI/D4T model=Lasso tuning
+  NRTI/D4T model=ElasticNet tuning
+  NRTI/D4T model=PoissonGLM tuning
+  NRTI/D4T model=RBF-SVR tuning
+  NRTI/D4T model=RandomForest tuning
+  NRTI/D4T model=MLP tuning
+  NRTI/D4T model=DIPS-PR fitting lambda=15
+  saved=results/hiv/NRTI/D4T.json
+  NRTI/DDI model=Ridge tuning
+  NRTI/DDI model=Lasso tuning
+  NRTI/DDI model=ElasticNet tuning
+  NRTI/DDI model=PoissonGLM tuning
+  NRTI/DDI model=RBF-SVR tuning
+  NRTI/DDI model=RandomForest tuning
+  NRTI/DDI model=MLP tuning
+  NRTI/DDI model=DIPS-PR fitting lambda=12
+  saved=results/hiv/NRTI/DDI.json
+  NRTI/TDF model=Ridge tuning
+  NRTI/TDF model=Lasso tuning
+  NRTI/TDF model=ElasticNet tuning
+  NRTI/TDF model=PoissonGLM tuning
+  NRTI/TDF model=RBF-SVR tuning
+  NRTI/TDF model=RandomForest tuning
+  NRTI/TDF model=MLP tuning
+  NRTI/TDF model=DIPS-PR fitting lambda=15
+  saved=results/hiv/NRTI/TDF.json

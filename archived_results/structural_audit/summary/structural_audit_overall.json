@@ -1,0 +1,19 @@
+{
+  "category_counts": {
+    "disjoint": 392,
+    "exact": 224,
+    "partial_overlap": 4290,
+    "strict_subset": 1425,
+    "strict_superset": 0
+  },
+  "category_fractions": {
+    "disjoint": 0.06191754857052598,
+    "exact": 0.035381456326014846,
+    "partial_overlap": 0.6776180698151951,
+    "strict_subset": 0.2250829252882641,
+    "strict_superset": 0.0
+  },
+  "non_disjoint_fraction": 0.938082451429474,
+  "runs": 45,
+  "total_selected_patterns": 6331
+}

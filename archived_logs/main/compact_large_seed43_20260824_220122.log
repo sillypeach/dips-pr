@@ -1,0 +1,6 @@
+seed=43 setting=n500/large
+  selected_k=50 saved=results/synthetic_compact_refit_ridge/seed_43/n500__large.json
+seed=43 setting=n1500/large
+  selected_k=94 saved=results/synthetic_compact_refit_ridge/seed_43/n1500__large.json
+seed=43 setting=n3000/large
+  selected_k=100 saved=results/synthetic_compact_refit_ridge/seed_43/n3000__large.json
