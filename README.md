@@ -1,179 +1,168 @@
-# DIPS-PR reproducibility package
+# DIPS-PR: reproducible regularization-path experiments
 
-This package contains the source code, launch scripts, dependency versions,
-and machine-readable summaries used for the revised IEEE Access manuscript
-"Dual-Guided Screening of High-Order Interaction Patterns for Poisson
-Regression."
+Code for **Dual-Guided Screening of High-Order Interaction Patterns for Poisson
+Regression**, by Ran Tao, Minrui Chen, and Hiroto Saigo.
 
-Repository: https://github.com/sillypeach/dips-pr
+This release accompanies the manuscript revised on **1 October 2026**. It
+provides the exact frozen numerical kernels used in the reported experiments,
+portable local experiment runners, pinned dependencies, synthetic inputs and
+folds, and archived seed-level numbers. The previous published code is
+preserved in [`legacy/20260913`](legacy/20260913); it does **not** reproduce the
+current manuscript's regularization paths or repeated HIV evaluation.
 
-```bash
+## Start here
+
+```sh
 git clone https://github.com/sillypeach/dips-pr.git
 cd dips-pr
-```
-
-The package covers:
-
-- five synthetic seeds (`42`-`46`) for nine sample-size/signal settings;
-- Ridge, Lasso, Elastic Net, Poisson GLM, RBF-SVR, Random Forest, and MLP
-  baselines;
-- exact embedded-pattern precision/recall and the structural audit of every
-  selected itemset;
-- all 25 original Stanford HIVDB fold-change endpoints, grouped by drug class;
-- 2,000-replicate paired test-set bootstrap comparisons; and
-- local-curvature versus certified-radius agreement over 25 seeds.
-
-All commands below are run from the package root. Every long experiment has a
-shell launcher that writes standard output and errors to a timestamped file in
-`logs/`. JSON checkpoints are written atomically, and `--resume` skips completed
-settings.
-
-## 1. Environment
-
-The archived runs used Ubuntu Linux, Python 3.10.12, Intel Xeon Gold 6346 CPUs,
-and the exact package versions in `requirements.txt`.
-
-```bash
+git checkout reproducibility-2026-10-06
 python3 -m venv .venv
 . .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
+python -m pip install -r requirements-dev.txt
+python reproduce.py verify
+python reproduce.py test -q
+python reproduce.py tables --output results/paper_tables
 ```
 
-The code uses CPU implementations only. Independent settings can be launched
-in parallel, but the wrappers set BLAS thread counts to one to avoid nested
-parallelism.
+Use Linux and Python 3.10 or later; the historical fitting environment was
+Linux/Python 3.10.12. Small portability tests also run on macOS/Python 3.12.
+Windows users need WSL because historical workers use POSIX facilities.
+There is no GPU dependency. Numerical packages are pinned to NumPy 2.2.6,
+SciPy 1.15.3, and scikit-learn 1.7.2. BLAS thread counts are set to one by the
+entry points. Full experiments can require substantial CPU time and memory.
 
-## 2. External HIVDB data
+`verify` checks file hashes, original synthetic inputs/folds, and **561**
+summary cells. `tables` recomputes means and sample standard deviations from
+archived seed-level evidence; it **does not rerun training**. The separate
+commands below perform fresh fits. The release validation uses small numerical
+tests and input reconstruction checks; it is not a new full production run.
 
-The Stanford HIVDB files are not redistributed in this archive. Download the
-five high-quality filtered datasets from:
+## What reproduces each experiment?
 
-https://hivdb.stanford.edu/pages/genopheno.dataset.html
+| Manuscript result | Scope | Code and instructions |
+| --- | --- | --- |
+| Table 1: prediction | C2, C4, C8, L2–5; 5 seeds; 9 methods | [Synthetic experiments](experiments/synthetic/README.md) |
+| Table 2: exact recovery | Same 20 datasets; DIPS, LCM+Lasso, RF paths | [Synthetic experiments](experiments/synthetic/README.md) |
+| Table 3: dictionary exclusion | C2, C4, C8, C12, L2–5, L3–6, S30; 35 full training paths | [Pruning](experiments/pruning/README.md) |
+| Table 4: component ablation | C2, C4, L2–5; v, u, final v+u; 45 displayed paths | [Ablation](experiments/ablation/README.md) |
+| NRTI and other HIV prediction tables | 25 endpoints; 5 grouped splits; 8 methods | [HIV experiments](experiments/hiv/README.md) |
+| HIV learned terms | Representative seed-42 coefficients and mutation annotations | [Numerical snapshot](paper_snapshot/README.md) |
 
-Place the files below in `data/` without renaming them:
+The original 45 synthetic datasets are included. Extra datasets outside the
+listed complete conditions do not enter the current manuscript tables.
+All table averages require five complete seeds; partial conditions are not
+reported as complete means.
 
-```text
-data/PI_DataSet.txt
-data/NRTI_DataSet.txt
-data/NNRTI_DataSet.txt
-data/INI_DataSet.txt
-data/CAI_DataSet.txt
+## Fresh synthetic prediction and recovery
+
+```sh
+python reproduce.py synthetic verify-generator
+python reproduce.py synthetic prepare --output runs/synthetic
+# Required only for LCM+Lasso: explicitly download and compile official LCM 5.3.
+python reproduce.py synthetic fetch-lcm --output runs/synthetic
+python reproduce.py synthetic run --output runs/synthetic --workers 1
+python reproduce.py synthetic aggregate --output runs/synthetic --require-complete
 ```
 
-The files used for the reported experiment had these SHA-256 checksums:
+The default scope is the 20 fully matched datasets. For a single dataset, add
+`--datasets count_02_s2609271101` to `run`. For a run without external LCM, add
+`--methods raw,dips,rf`; that run cannot produce the complete LCM comparison.
+The DIPS kernel itself requires no external LCM executable. The optional
+LCM+Lasso comparator downloads the official archive, verifies its pinned SHA,
+and compiles it with a C compiler. It is governed by its own upstream terms;
+it is not bundled or relicensed here.
 
-```text
-6fd96655bf8d5314dde46ceb014d86e5e023a505309a6ed77a3e4f9be46be1b5  PI_DataSet.txt
-459a4c49f49b7ef960fc8da1ed2fe1c2fec68b04cc78be675a1fa83de7295fa0  NRTI_DataSet.txt
-753bf2da2b323735cc5b310d903590e01ef481cbbbee6c30a3177c9c6db57a66  NNRTI_DataSet.txt
-3c87a4e588723da461cf2dc2008ca95a7b5067aafa1a74b103a81febd5277c80  INI_DataSet.txt
-8082e16158dac4804e9ff9d76a8f60dee58d60c8f97189d35e6134e6cb479524  CAI_DataSet.txt
+Each DIPS fit uses 101 decreasing relative penalties from 1 to 0.01, exact
+training-subset lambda-max calibration, its own warm starts, and an independent
+full-dictionary check. Three saved training folds select the predictive
+penalty by RMSE. The complete outer-training path also supplies the diagnostic
+best-F1 recovery point.
+
+## Fresh pruning and ablation
+
+```sh
+# Small invented-data numerical checks (not paper results):
+python reproduce.py pruning smoke --output runs/pruning_smoke
+python reproduce.py ablation smoke --output runs/ablation_smoke
+
+# One original dataset; explicitly request --all for the registered full scope:
+python reproduce.py pruning run --dataset count_02_s2609271101 --output runs/pruning_one
+python reproduce.py ablation run --dataset count_02_s2609271101 --output runs/ablation_one
+
+# Reconstruct the original tables from archived traversal evidence, without fitting:
+python reproduce.py pruning paper --output results/table3
+python reproduce.py ablation paper --output results/table4
 ```
 
-The response is each drug's original positive fold-change value. The code does
-not shift, discretize, or log-transform the response. Missing fold-change
-entries are removed endpoint by endpoint.
+`pruning run --all` fits 35 paths. `ablation run --all` fits the full five-arm
+75-path study; the main table displays v, u, and final v+u. Each point is
+verified independently, and failures are retained. `pruning count` can count
+the complete support/length/closed dictionary without retraining.
 
-## 3. Main experiments
+## Fresh HIV evaluation
 
-Launch the five synthetic jobs and five HIV drug-class jobs:
+Obtain the five original filtered genotype–phenotype files from
+[Stanford HIVDB](https://hivdb.stanford.edu/pages/genopheno.dataset.html).
+The exact filenames and SHA-256 hashes are listed in the
+[HIV instructions](experiments/hiv/README.md). Individual records are not
+redistributed. The preparer rejects a changed upstream snapshot rather than
+silently claiming it is the original experiment.
 
-```bash
-PYTHON="$PWD/.venv/bin/python" bash scripts/launch_all.sh
+```sh
+python reproduce.py hiv validate-inputs --data-dir /path/to/hivdb
+python reproduce.py hiv prepare --data-dir /path/to/hivdb --output runs/hiv
+# Example of an explicitly selected task:
+python reproduce.py hiv run --root runs/hiv --endpoint NRTI/AZT --seed 42 --method Ridge
+# Full retraining, from a fresh prepared study rather than the partly run example:
+python reproduce.py hiv prepare --data-dir /path/to/hivdb --output runs/hiv_full
+python reproduce.py hiv run --root runs/hiv_full --all
+python reproduce.py hiv aggregate --root runs/hiv_full
 ```
 
-Monitor checkpoints and log tails:
+All 125 endpoint/split input and fold fingerprints are checked against the
+historical study. Split seeds are 42–46; estimator RNG is fixed at 42. Every
+method uses the same SeqID-grouped outer holdout and three training folds.
+The response remains the released fold change. The Poisson objective
+is used as a pseudo-likelihood, without asserting that HIV responses are counts.
 
-```bash
-bash scripts/status.sh
+To reconstruct the descriptive metadata annotations of all 1,451 archived
+seed-42 rules from the original raw records, without refitting:
+
+```sh
+python reproduce.py annotations --data-dir /path/to/hivdb --output results/rule_annotations
 ```
 
-Aggregate the completed experiments:
+This checks every rule's support and observed annotation against the archived
+catalogue. Coefficients remain those of the original position rules. The
+output contains aggregate annotations, not individual records.
 
-```bash
-.venv/bin/python aggregate_results.py --results-dir results
-.venv/bin/python summarize_revision_results.py \
-  --results results --output revision_tables
-```
+## Interpretation and provenance
 
-The generated-data results use five independent data seeds for each of the
-nine settings. Hyperparameters are selected using training-set cross-validation
-only; the held-out test partition is evaluated once after refitting. The HIVDB
-experiment uses fixed seed 42 and an 80/10/10 train/validation/test split, with
-three-fold cross-validation confined to the training partition.
+* Prediction is selected using training-only CV. DIPS best-F1 recovery uses
+  generating truth on synthetic data; it is not an automatic selection rule
+  for unknown supports. The baselines' recovery rows use prediction-oriented
+  selection, so this is not an equally tuned oracle comparison.
+* RF is trained on raw binary positions/items. Its synthetic recovery score
+  uses the documented pure-positive tree-prefix extraction rule, not an
+  intrinsic RF support set. HIV has no known generating support and no
+  biological Precision/Recall/F1 ranking is claimed.
+* Pruning means `1 - sum(D-U)/(M*sum(R))` along a full training path. It counts
+  excluded candidate opportunities before top-K and later filters. It is not
+  a runtime or memory speedup. Zero-traversal lambda-max is NA.
+* Component v/u rows use one reference, while final v+u uses two; their main
+  table does not isolate the second reference. Full ablation evidence remains
+  available. Timings exclude calibration, counting, serialization, and audit.
+* Five-split HIV SDs describe variability across overlapping splits, not
+  confidence intervals, independent-replicate SEs, or significance tests.
+* Frozen kernels evaluate gaps and screening bounds in floating point. The
+  `certified` mode selects the proved radius formula; it does not mean every
+  floating-point exclusion has an outward-rounded numerical certificate.
 
-## 4. Structural audit for Table 3
+Frozen-file manifests preserve kernel identity. New portable runners register
+new output roots, while retaining the original objective, data, folds, grids,
+selection rules, and tolerances. Failed or interrupted fits are not silently
+retried with different parameters. Do not treat packaging tests as a claim of
+bitwise-identical floating-point training on every platform.
 
-After `results/synthetic/` contains the 45 main synthetic JSON checkpoints,
-launch final-model refits that save every active itemset and classify it as an
-exact match, strict subset, strict superset, partial overlap, or disjoint from
-the eight embedded patterns:
-
-```bash
-PYTHON="$PWD/.venv/bin/python" \
-ORIGINAL_DIR="$PWD/results/synthetic" \
-OUTPUT_DIR="$PWD/results/structure_refits" \
-bash scripts/launch_structure_refits.sh
-```
-
-Then aggregate and verify all 45 refits:
-
-```bash
-.venv/bin/python aggregate_structural_audit.py \
-  --input-dir results/structure_refits \
-  --output-dir results/structure_summary \
-  --expected-runs 45
-```
-
-`reproduction_verification.json` records whether each refit exactly reproduces the
-stored `R2`, pseudo-`R2`, and nonzero-pattern count. In the archived audit,
-all 45 refits matched, with maximum absolute differences of zero.
-
-## 5. Radius-agreement experiment for Figure 2
-
-```bash
-.venv/bin/python agreement_multiseed.py \
-  --seeds 42 99 137 256 512 1000 1001 1002 1003 1004 1005 1006 1007 \
-  1008 1009 1010 1011 1012 1013 1014 1015 1016 1017 1018 1019 \
-  --output-dir results/agreement_multiseed --resume
-```
-
-Summarize and plot the comparison:
-
-```bash
-.venv/bin/python summarize_revision_results.py \
-  --results results --output revision_tables
-.venv/bin/python plot_agreement_figure.py \
-  --summary revision_tables/agreement_summary.csv \
-  --output revision_tables/heuristic_certified_output_agreement_25seeds.pdf
-```
-
-## 6. Output map
-
-- `results/synthetic_mean_std.csv`: Table 1 predictive `R2` summaries.
-- `revision_tables/synthetic_pr2_rows.tex`: Table 2 pseudo-`R2` summaries.
-- `results/structure_summary/structural_audit_mean_sd.csv`: Table 3 exact and
-  structural-composition summaries.
-- `results/hiv_nonlinear_all_endpoints.csv`: complete Table 4 and Appendix
-  Table 9 comparisons.
-- `results/hiv_paired_bootstrap_vs_dips.csv`: paired bootstrap intervals used
-  in the main-text HIV discussion.
-- `revision_tables/agreement_summary.csv`: Figure 2 radius-mode agreement.
-- `revision_tables/agreement_overall.json`: aggregate agreement counts.
-
-The archived main results and structural audit are included under
-`archived_results/`. They are provided for direct inspection, not as a
-substitute for the source code and commands above.
-
-## 7. Important interpretation details
-
-For Table 3, a true positive requires exact equality with an embedded itemset.
-Subsets, supersets, and partially overlapping itemsets are false positives
-under that exact-recovery definition, although their structural categories are
-reported separately. This is intentionally stricter than prediction-oriented
-feature relevance.
-
-For nonnegative continuous HIVDB fold-change responses, the objective is used
-as a Poisson pseudo-likelihood for a log-linear conditional mean. The analysis
-does not claim that fold changes are Poisson-distributed.
+See [validation](docs/VALIDATION.md), [the numerical snapshot](paper_snapshot/README.md),
+and [release changes](docs/RELEASE_NOTES.md) for the verified scope.

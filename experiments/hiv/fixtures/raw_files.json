@@ -1,0 +1,27 @@
+{
+  "CAI_DataSet.txt": {
+    "n_items": 231,
+    "n_rows": 140,
+    "sha256": "8082e16158dac4804e9ff9d76a8f60dee58d60c8f97189d35e6134e6cb479524"
+  },
+  "INI_DataSet.txt": {
+    "n_items": 288,
+    "n_rows": 861,
+    "sha256": "3c87a4e588723da461cf2dc2008ca95a7b5067aafa1a74b103a81febd5277c80"
+  },
+  "NNRTI_DataSet.txt": {
+    "n_items": 318,
+    "n_rows": 2272,
+    "sha256": "753bf2da2b323735cc5b310d903590e01ef481cbbbee6c30a3177c9c6db57a66"
+  },
+  "NRTI_DataSet.txt": {
+    "n_items": 240,
+    "n_rows": 1867,
+    "sha256": "459a4c49f49b7ef960fc8da1ed2fe1c2fec68b04cc78be675a1fa83de7295fa0"
+  },
+  "PI_DataSet.txt": {
+    "n_items": 99,
+    "n_rows": 2171,
+    "sha256": "6fd96655bf8d5314dde46ceb014d86e5e023a505309a6ed77a3e4f9be46be1b5"
+  }
+}

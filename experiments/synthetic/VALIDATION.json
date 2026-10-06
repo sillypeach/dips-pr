@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-06",
+  "full_manuscript_training_rerun": false,
+  "numerical_versions": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "threadpoolctl": "3.6.0"
+  },
+  "checks": {
+    "frozen_source_and_input_hashes": "passed:12 source files,45 synthetic datasets and45 folds",
+    "generator": "passed:40 count/length datasets; exact observations/truth/metadata/splits; true_mean tolerance rtol1e-14,atol1e-12",
+    "generator_max_true_mean_absolute_difference": 6.366462912410498e-12,
+    "unit_tests": "12 passed:3 solver/scope tests,6 RF-prefix semantics tests,and3 prepared-run integrity tests",
+    "fresh_prepare_and_registration": "passed",
+    "overwrite_refusal": "passed",
+    "one_original_C2_Ridge_CV": "complete;selected alpha100 matched historical run",
+    "Ridge_max_metric_absolute_difference": 8.731149137020111e-11,
+    "partial_aggregation": "1 row,199 missing,no partial-condition means",
+    "external_LCM": "local pinned archive built in temporary directory; tiny closed dictionary matched brute-force truth; no download or vendored archive",
+    "prepared_run_integrity": "passed:8 copied source/audit/data/fold modifications rejected before dynamic import; absent optional LCM archive permits empty aggregation; present corrupt archive rejected",
+    "prepared_empty_aggregation": "passed:0 rows,200 missing,complete=false; LCM archive absent"
+  }
+}

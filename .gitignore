@@ -10,8 +10,13 @@ __pycache__/
 results/
 revision_tables/
 logs/
+runs/
+downloads/
+.coverage
+htmlcov/
 
 # Downloaded Stanford HIVDB files are not redistributed.
 data/*_DataSet.txt
 data/*_DataSet.Full.txt
-
+**/*_DataSet.txt
+**/*_DataSet.Full.txt

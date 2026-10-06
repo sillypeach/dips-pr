@@ -1,0 +1,13 @@
+{
+  "version": "sanitized-validated-point-evidence-v1",
+  "scope": "Validated scalar exports; original full raw jobs are not bundled. Original independent audit status is recorded, not rerun by paper regeneration.",
+  "row_count": 7575,
+  "point_file_sha256": "a7144c8042fa6ac8f14cf4fc4bd443a8e394e2abbccf909e1aa38a6b1be538a4",
+  "config_sha256": "46fd1f4501ad3aa4059caf27045faf0c9cdd85bf3986f2b220e5e31fc44a6235",
+  "original_protocol_sha256": "81f88f11a08069fef8c080262f5864cc5755140cd222bb00abb50ba9efc369d4",
+  "upstream": {
+    "validated_summary_sha256": "8c87083f0852865ed60d3bfe8b6a08af8d15f672fe5b31b9ef392fe251296aca",
+    "validated_points_sha256": "b7ada6d3ff160dfb27994fe079ef4e6816b39e9de7fb9b4f639132b267406dd3",
+    "validated_paths_sha256": "01532ace9dcce74dda76e30ad591060be2c9531adc49a30de470205ba0cab51e"
+  }
+}

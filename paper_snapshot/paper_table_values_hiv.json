@@ -1,0 +1,4002 @@
+[
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/3TC",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.9386617642850388,
+    "sd": 0.04922035529274936,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/3TC",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.9009270303823451,
+    "sd": 0.06029943586587893,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/3TC",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.9403306769755592,
+    "sd": 0.040810806328280255,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/3TC",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.9145818179369238,
+    "sd": 0.061463440634362015,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/3TC",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": 0.91879721772464,
+    "sd": 0.04567410864778256,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/3TC",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6577706317388748,
+    "sd": 0.289492414291601,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/3TC",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.9274338962930517,
+    "sd": 0.04552013480855015,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/3TC",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6830640356110761,
+    "sd": 0.28998371331625683,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/3TC",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.9269489613368522,
+    "sd": 0.0445224688644691,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/3TC",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.7320303460149845,
+    "sd": 0.20679922148218954,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/3TC",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": 0.8291240982925704,
+    "sd": 0.06801919784239617,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/3TC",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.8544875722412255,
+    "sd": 0.06292787077133923,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/3TC",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.7848134652529478,
+    "sd": 0.03263371207692932,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/3TC",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.7353338554123808,
+    "sd": 0.03218639057292859,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/3TC",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.8512906404948481,
+    "sd": 0.034455123683322215,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/3TC",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.7769682252538761,
+    "sd": 0.061875709058977324,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/ABC",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.2813487885536031,
+    "sd": 0.2536027550437831,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/ABC",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5365651807625518,
+    "sd": 0.18018907045505406,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/ABC",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.21577285596848084,
+    "sd": 0.11181294720209592,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/ABC",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5388049655885763,
+    "sd": 0.11847039274275499,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/ABC",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": 0.13171186872818394,
+    "sd": 0.17843460628477087,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/ABC",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.1740818717942009,
+    "sd": 0.3592928842044893,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/ABC",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.2116972007052385,
+    "sd": 0.13384438243838984,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/ABC",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.42330297228894587,
+    "sd": 0.12944265335509833,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/ABC",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.20956854243848227,
+    "sd": 0.13418036568221375,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/ABC",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.3731003168788508,
+    "sd": 0.1465615907062372,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/ABC",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": -0.03838707418920677,
+    "sd": 0.6441434113259653,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/ABC",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.4381219494400529,
+    "sd": 0.17917657627686376,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/ABC",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.17953931816378793,
+    "sd": 0.11962787963634575,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/ABC",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.3313480634436735,
+    "sd": 0.12582478534949262,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/ABC",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.1951210751589813,
+    "sd": 0.09375809793665121,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/ABC",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.2346680354810559,
+    "sd": 0.19712975304431785,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/AZT",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.42703517411236225,
+    "sd": 0.043910600082897565,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/AZT",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5112483165171537,
+    "sd": 0.025650791514666337,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/AZT",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.5382287116259481,
+    "sd": 0.05132469308395708,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/AZT",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5990081889830907,
+    "sd": 0.06525127813457977,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/AZT",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": 0.3442766808152907,
+    "sd": 0.021217797300022743,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/AZT",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.2069851892188257,
+    "sd": 0.2084014338155208,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/AZT",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.3822851990950951,
+    "sd": 0.01452434956971998,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/AZT",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.2372885518925804,
+    "sd": 0.21429329792046725,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/AZT",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.3845539730544636,
+    "sd": 0.015473671932371102,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/AZT",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.23829961567807895,
+    "sd": 0.21379737081121483,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/AZT",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": -0.29343303153426276,
+    "sd": 0.7728685643697355,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/AZT",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.41189954758554403,
+    "sd": 0.07738991354616673,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/AZT",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.38809190513587805,
+    "sd": 0.019256273778421748,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/AZT",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.42866118458112723,
+    "sd": 0.048038432372822376,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/AZT",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.3895706468937091,
+    "sd": 0.034545108276754284,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/AZT",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.2384137586992856,
+    "sd": 0.180916543516395,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/D4T",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.3382411300956261,
+    "sd": 0.23872767040811183,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/D4T",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5493697619929583,
+    "sd": 0.16384240331774116,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/D4T",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.38150961526536425,
+    "sd": 0.23219624028222316,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/D4T",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.576450032288828,
+    "sd": 0.12914392851989684,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/D4T",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": -0.2651267339892768,
+    "sd": 0.4167518665959562,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/D4T",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": -2.388464169444426,
+    "sd": 1.4676643763028916,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/D4T",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.10002460830952993,
+    "sd": 0.23705929389379907,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/D4T",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.3380358758784582,
+    "sd": 0.4637789728845008,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/D4T",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.08369020767258006,
+    "sd": 0.23303651879818438,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/D4T",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.5381620276553694,
+    "sd": 0.45327468580920016,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/D4T",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": 0.26382765653012913,
+    "sd": 0.14764317781926473,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/D4T",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.4847585537738343,
+    "sd": 0.08272495839269639,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/D4T",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.2806466759950733,
+    "sd": 0.1517548275094187,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/D4T",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.4151243204850686,
+    "sd": 0.08653848036694912,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/D4T",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.2351583553856634,
+    "sd": 0.15775424876339117,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/D4T",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.2179262098854246,
+    "sd": 0.548815630037205,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/DDI",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.6543588897221466,
+    "sd": 0.23044750112219478,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/DDI",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.7801273352629854,
+    "sd": 0.08477837459319175,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/DDI",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.7055086184849514,
+    "sd": 0.17168994581531655,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/DDI",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.8010700894061931,
+    "sd": 0.06687458642215709,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/DDI",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": -0.18659388509254232,
+    "sd": 0.7195456373197445,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/DDI",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": -1.6912664830662443,
+    "sd": 0.7942969111012993,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/DDI",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.24577573987477716,
+    "sd": 0.5272930562573949,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/DDI",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.4347485962146239,
+    "sd": 0.1981098611797592,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/DDI",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.22053037167426698,
+    "sd": 0.523474727486125,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/DDI",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.20795105377481007,
+    "sd": 0.1696498883621324,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/DDI",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": 0.7013167695031496,
+    "sd": 0.08756417223196429,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/DDI",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.7536822199427171,
+    "sd": 0.07823618860747171,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/DDI",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.5473086081844188,
+    "sd": 0.12049280930398312,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/DDI",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6146468738431207,
+    "sd": 0.08763104334125627,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/DDI",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.5665825927796357,
+    "sd": 0.1160851736772096,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/DDI",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.38616371190894866,
+    "sd": 0.5135793263129607,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/TDF",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.12738988995466985,
+    "sd": 0.164776963717142,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/TDF",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.3861480348806329,
+    "sd": 0.18222041076455334,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/TDF",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.11471775570105851,
+    "sd": 0.10924854652041698,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/TDF",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.3616238881421029,
+    "sd": 0.16151993699637648,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/TDF",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": -0.06305274217372514,
+    "sd": 0.15515844333567902,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/TDF",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": -1.3834402728494628,
+    "sd": 1.152554711773597,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/TDF",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.1031777134062171,
+    "sd": 0.17007400344176354,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/TDF",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.09333411418240718,
+    "sd": 0.26722073400518603,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/TDF",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.08900150187088637,
+    "sd": 0.15446227565193565,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/TDF",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.12806023248747916,
+    "sd": 0.36534141991217,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/TDF",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": 0.16783026167902643,
+    "sd": 0.11884000839989999,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/TDF",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.36633544760948505,
+    "sd": 0.13453225577706815,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/TDF",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.1438898566642402,
+    "sd": 0.1238265552470174,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/TDF",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.27323664628028616,
+    "sd": 0.1302666383041672,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/TDF",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.06651090265931203,
+    "sd": 0.08065689414596212,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_nrti",
+    "endpoint": "NRTI/TDF",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.07368801687461997,
+    "sd": 0.2091163403608889,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/DOR",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.9230591804423429,
+    "sd": 0.028688439914597175,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/DOR",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.8879493912778849,
+    "sd": 0.03406076835606833,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/DOR",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.9156578143324039,
+    "sd": 0.06753466800841941,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/DOR",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.8855863877478143,
+    "sd": 0.032611952828029325,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/DOR",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": 0.8830309217552976,
+    "sd": 0.04838038676674134,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/DOR",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.8303726322891819,
+    "sd": 0.05354254019458321,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/DOR",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.9044312332682786,
+    "sd": 0.04304716392716323,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/DOR",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.7822083858347757,
+    "sd": 0.09713415438062568,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/DOR",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.8901822102141923,
+    "sd": 0.04489057243250814,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/DOR",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.8590736876093061,
+    "sd": 0.05667451413531868,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/DOR",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": 0.878303592408676,
+    "sd": 0.04222105144463219,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/DOR",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.884085149455163,
+    "sd": 0.017491201381840852,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/DOR",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.9350533722421854,
+    "sd": 0.050158852581129613,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/DOR",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.8628703016594159,
+    "sd": 0.09146828297811653,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/DOR",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.7986918065444143,
+    "sd": 0.2214287783948482,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/DOR",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.7569548293824283,
+    "sd": 0.1765969909127501,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/EFV",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.5374729708345797,
+    "sd": 0.0510017367930584,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/EFV",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5966566225673204,
+    "sd": 0.03894822154171136,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/EFV",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.6869344444131633,
+    "sd": 0.054930506172829914,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/EFV",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.7669695666786852,
+    "sd": 0.06449660618260203,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/EFV",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": 0.5680954591750096,
+    "sd": 0.045898877852509165,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/EFV",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.540409525726332,
+    "sd": 0.0761339421913817,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/EFV",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.6071856233076212,
+    "sd": 0.03863986069140424,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/EFV",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5973157269568501,
+    "sd": 0.049531721099783134,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/EFV",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.6045857944706109,
+    "sd": 0.03914736573360699,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/EFV",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5993336847850783,
+    "sd": 0.04851255848908365,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/EFV",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": -4.308069589060419,
+    "sd": 5.751911847498679,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/EFV",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.3940331192194941,
+    "sd": 0.15996829230254903,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/EFV",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.469658951803233,
+    "sd": 0.06558706543425556,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/EFV",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.48545839103615124,
+    "sd": 0.06557968706111833,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/EFV",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.5258463409766385,
+    "sd": 0.08093690715026026,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/EFV",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.497273479590805,
+    "sd": 0.09059583925974904,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/ETR",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.2942780865298514,
+    "sd": 0.19605102740097963,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/ETR",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.4172725353537518,
+    "sd": 0.1791432105643292,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/ETR",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.3490856678662776,
+    "sd": 0.2042291474900864,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/ETR",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5836455559334508,
+    "sd": 0.13074543091955976,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/ETR",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": -0.07456121215628057,
+    "sd": 0.28971154446967223,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/ETR",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.3488800931299932,
+    "sd": 0.6879540565285976,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/ETR",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.13189532152845534,
+    "sd": 0.1739755750745567,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/ETR",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.008932499756257161,
+    "sd": 0.20039813574917878,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/ETR",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.10723537854405489,
+    "sd": 0.21054195745394336,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/ETR",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.034539578879597,
+    "sd": 0.2847621459464249,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/ETR",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": 0.013747632623809713,
+    "sd": 0.3150405979895143,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/ETR",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.4253556215715316,
+    "sd": 0.12843977381120858,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/ETR",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.15349177861985966,
+    "sd": 0.22323066376678927,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/ETR",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.18478758539899928,
+    "sd": 0.15234432194647565,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/ETR",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.011418441415876312,
+    "sd": 0.13689988662120073,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/ETR",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.09515303449253484,
+    "sd": 0.2916924575959446,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/NVP",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.5055905201407376,
+    "sd": 0.05006873775943083,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/NVP",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5458425952062749,
+    "sd": 0.033881604401580105,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/NVP",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.8037134950013911,
+    "sd": 0.029957385909813835,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/NVP",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.8145858268241989,
+    "sd": 0.03417076318802804,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/NVP",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": 0.6321765955424282,
+    "sd": 0.02894650483035689,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/NVP",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6792054132385159,
+    "sd": 0.024112031489813127,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/NVP",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.6641283325006441,
+    "sd": 0.04263094502023158,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/NVP",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.702888640244907,
+    "sd": 0.028574325939282164,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/NVP",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.6631234724233284,
+    "sd": 0.042194341548218356,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/NVP",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.696036440087867,
+    "sd": 0.024997501537895577,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/NVP",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": -2.3559837062686304,
+    "sd": 3.2232032812525437,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/NVP",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.250941068756877,
+    "sd": 0.1616106082604207,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/NVP",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.5906303321661517,
+    "sd": 0.041288765579710805,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/NVP",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5904498846861861,
+    "sd": 0.027514050224169636,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/NVP",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.5799801908800062,
+    "sd": 0.04804986053024781,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/NVP",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.4648314073377315,
+    "sd": 0.15701371681690654,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/RPV",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.09842013447129674,
+    "sd": 0.3113269720634329,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/RPV",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.269188866373706,
+    "sd": 0.19111038888361043,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/RPV",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": -0.1631203761476575,
+    "sd": 0.5762738010543474,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/RPV",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.3000433107558963,
+    "sd": 0.18308202473881283,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/RPV",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": -3.1073532680459754,
+    "sd": 6.301274413893922,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/RPV",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.7343333472349086,
+    "sd": 1.0548675992516432,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/RPV",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": -5.681065881200139,
+    "sd": 11.758283624811039,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/RPV",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.8593799801241057,
+    "sd": 1.289343428050883,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/RPV",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": -1.4290616028434306,
+    "sd": 3.079077463440774,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/RPV",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.633561737647199,
+    "sd": 0.8888461120286714,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/RPV",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": -0.8397406141066469,
+    "sd": 2.585102659835025,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/RPV",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.31112802102353826,
+    "sd": 0.26283342689952743,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/RPV",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": -0.15776779180641293,
+    "sd": 0.613115194230195,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/RPV",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.26008509677355546,
+    "sd": 0.10628794127356916,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/RPV",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": -0.2859099862254896,
+    "sd": 0.7825273219323963,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "NNRTI/RPV",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": -1.387640839007993,
+    "sd": 2.1335112976405037,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/ATV",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.5977900255324038,
+    "sd": 0.023547953754925473,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/ATV",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6900498568639852,
+    "sd": 0.025791006610413475,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/ATV",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.652327143012353,
+    "sd": 0.03736422253914642,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/ATV",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.752671993152834,
+    "sd": 0.02294525347931863,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/ATV",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": 0.5907478483471881,
+    "sd": 0.01834392348809757,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/ATV",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.21256172422723524,
+    "sd": 0.2850012222936485,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/ATV",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.6010671545989169,
+    "sd": 0.016774736514220272,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/ATV",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.22153008944737831,
+    "sd": 0.2887897663771583,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/ATV",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.5991014479038286,
+    "sd": 0.015466313920691194,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/ATV",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.28500232482989196,
+    "sd": 0.250357461905177,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/ATV",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": 0.515306485405492,
+    "sd": 0.06334475955373225,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/ATV",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6834173654819645,
+    "sd": 0.01793384477556021,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/ATV",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.6126123875127265,
+    "sd": 0.022519417610621744,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/ATV",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6308387384410761,
+    "sd": 0.029566353653641794,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/ATV",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.6313356476814503,
+    "sd": 0.014860329112406596,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/ATV",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5729284230704142,
+    "sd": 0.031467787965941685,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/DRV",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.7367943776276026,
+    "sd": 0.04103471640553839,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/DRV",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.7677841626889708,
+    "sd": 0.02543440721316233,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/DRV",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.7688437926885294,
+    "sd": 0.05434588077539815,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/DRV",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.8276969386151881,
+    "sd": 0.027903741784924607,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/DRV",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": 0.6248501816822875,
+    "sd": 0.12699210763714824,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/DRV",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.35420227174156776,
+    "sd": 0.23681050034589668,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/DRV",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.6311837239735434,
+    "sd": 0.12786189139671578,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/DRV",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.3595623227458094,
+    "sd": 0.23350412071426793,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/DRV",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.6359374918934455,
+    "sd": 0.12090865282808481,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/DRV",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.3654532352254767,
+    "sd": 0.22747507791109872,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/DRV",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": 0.35008210776039467,
+    "sd": 0.4360469756007727,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/DRV",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.7921979674970712,
+    "sd": 0.05254406516677169,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/DRV",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.675468942483638,
+    "sd": 0.0780229007881412,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/DRV",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6606907396693296,
+    "sd": 0.059346755578564454,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/DRV",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.7317244919520471,
+    "sd": 0.07312844993089336,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/DRV",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.25267738602174455,
+    "sd": 0.4099676168787226,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/FPV",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.5586566085682716,
+    "sd": 0.058566192644651946,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/FPV",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.686186337057256,
+    "sd": 0.05342651897517535,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/FPV",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.6286317848181512,
+    "sd": 0.0568695673856251,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/FPV",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.7641797551338089,
+    "sd": 0.03779651514976021,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/FPV",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": 0.5857104635613334,
+    "sd": 0.06177719772476054,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/FPV",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.38888680441403034,
+    "sd": 0.1322252332272536,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/FPV",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.5918045631120173,
+    "sd": 0.05993613816599173,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/FPV",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.4241472336367784,
+    "sd": 0.11288930044614921,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/FPV",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.5909855041503742,
+    "sd": 0.05666157093563378,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/FPV",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.4360642030940465,
+    "sd": 0.1084568767158678,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/FPV",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": 0.5276622698080053,
+    "sd": 0.11813469671277711,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/FPV",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.7192886323265888,
+    "sd": 0.05201217177564482,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/FPV",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.5746948989880138,
+    "sd": 0.02357429474862828,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/FPV",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5994899361802862,
+    "sd": 0.05738286846129203,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/FPV",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.6263746239281932,
+    "sd": 0.055007183476700014,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/FPV",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.4201540480212457,
+    "sd": 0.1638264114998992,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/IDV",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.5043161737583788,
+    "sd": 0.10963121956458956,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/IDV",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.697619332772773,
+    "sd": 0.04651920681212191,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/IDV",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.6195436970944936,
+    "sd": 0.050303013179525,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/IDV",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.7628283916411573,
+    "sd": 0.04143265198888287,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/IDV",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": 0.4863903473890286,
+    "sd": 0.047966857805293556,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/IDV",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.3310303405729259,
+    "sd": 0.1872180848125263,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/IDV",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.4986809519484597,
+    "sd": 0.0446152523683733,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/IDV",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.34901312552974006,
+    "sd": 0.1837438922050004,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/IDV",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.4972210842839472,
+    "sd": 0.04349288366187822,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/IDV",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.35246461502690124,
+    "sd": 0.18297133055112796,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/IDV",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": 0.4116825863283665,
+    "sd": 0.16685935186891798,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/IDV",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6790486226994517,
+    "sd": 0.056727287275123564,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/IDV",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.5673026746020401,
+    "sd": 0.0736518770232964,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/IDV",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5442447381923707,
+    "sd": 0.09002633450775949,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/IDV",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.5631664922302984,
+    "sd": 0.04329259305339707,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/IDV",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.4159131835807801,
+    "sd": 0.2192759955286479,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/LPV",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.7253152325625656,
+    "sd": 0.04541370501407601,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/LPV",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.8060653757969248,
+    "sd": 0.03137405129176435,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/LPV",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.7427492316332835,
+    "sd": 0.04679705832157792,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/LPV",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.8143821648750214,
+    "sd": 0.03996705240839851,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/LPV",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": 0.7140587119124769,
+    "sd": 0.044631923860513116,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/LPV",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6379427978602475,
+    "sd": 0.04406554510307031,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/LPV",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.719133152547545,
+    "sd": 0.04145913209210187,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/LPV",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6444090798742297,
+    "sd": 0.039165768610234485,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/LPV",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.7197614122162129,
+    "sd": 0.04154234919122502,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/LPV",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6434596970373256,
+    "sd": 0.03885846727744639,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/LPV",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": -1.2512894058705986,
+    "sd": 2.650566200640366,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/LPV",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6890384816391733,
+    "sd": 0.11111580673751617,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/LPV",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.7216143611392603,
+    "sd": 0.023780290676549163,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/LPV",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6642841471801451,
+    "sd": 0.08981009181318535,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/LPV",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.7565106311619983,
+    "sd": 0.04035262884191673,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/LPV",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6599024606203086,
+    "sd": 0.0784771740941356,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/NFV",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.5504081647651244,
+    "sd": 0.047793874072127075,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/NFV",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6586979327623632,
+    "sd": 0.027976553635643785,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/NFV",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.6418470750495594,
+    "sd": 0.01240581538716986,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/NFV",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.7509234492237545,
+    "sd": 0.009654419083959701,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/NFV",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": 0.5481180729583937,
+    "sd": 0.02378333802206104,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/NFV",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.4558547689790552,
+    "sd": 0.08152682502141044,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/NFV",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.5586192757071939,
+    "sd": 0.024411888600442282,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/NFV",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.4878155877566394,
+    "sd": 0.059240380220664926,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/NFV",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.5589002387080861,
+    "sd": 0.02369292930155263,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/NFV",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.4929627475130486,
+    "sd": 0.050380002576877136,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/NFV",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": 0.3687446748317179,
+    "sd": 0.17360958992899428,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/NFV",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6097579558283063,
+    "sd": 0.02902762838208135,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/NFV",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.5576809531220849,
+    "sd": 0.03405996256682374,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/NFV",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5149702184991223,
+    "sd": 0.05570157763662353,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/NFV",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.5876779028933627,
+    "sd": 0.02271022215085645,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/NFV",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.37370445310668515,
+    "sd": 0.10738680862264362,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/SQV",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.5644121441661258,
+    "sd": 0.0859962854751445,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/SQV",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6942101342516429,
+    "sd": 0.044336608815494526,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/SQV",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.7181511091563999,
+    "sd": 0.02032430865013789,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/SQV",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.8043600072488826,
+    "sd": 0.019858414815798964,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/SQV",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": 0.6227658719728418,
+    "sd": 0.05200000441205812,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/SQV",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.544401572033997,
+    "sd": 0.11303212680310096,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/SQV",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.6273450773367865,
+    "sd": 0.0538609910319973,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/SQV",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5987305772378267,
+    "sd": 0.05484043006788111,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/SQV",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.6260730879275529,
+    "sd": 0.05000861145679732,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/SQV",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.599954152047476,
+    "sd": 0.05341626272703572,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/SQV",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": 0.4624777220430184,
+    "sd": 0.1478273622202159,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/SQV",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.7020505806572319,
+    "sd": 0.06212947968921471,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/SQV",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.635442999114199,
+    "sd": 0.03439440676160106,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/SQV",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.593462225536504,
+    "sd": 0.028806168936334975,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/SQV",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.6699003951768867,
+    "sd": 0.04045550098919284,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/SQV",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5951182009849696,
+    "sd": 0.04785460843240776,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/TPV",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.2025353955065658,
+    "sd": 0.07517678526709343,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/TPV",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.4273831893988822,
+    "sd": 0.08928970732889839,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/TPV",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.2516093159401216,
+    "sd": 0.056559864313320135,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/TPV",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5172439126480887,
+    "sd": 0.05687174469513138,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/TPV",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": 0.1952266389146337,
+    "sd": 0.14819327053777895,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/TPV",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.15540998429828498,
+    "sd": 0.21860516803065405,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/TPV",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.211092205571264,
+    "sd": 0.13575647822006182,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/TPV",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.010105045542747205,
+    "sd": 0.2083409698085095,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/TPV",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.20875236618867601,
+    "sd": 0.13606500757900186,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/TPV",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.015318616918472116,
+    "sd": 0.21133781190919515,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/TPV",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": -3.8791000127426245,
+    "sd": 9.104280864454475,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/TPV",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.3922643237885689,
+    "sd": 0.16838677982356867,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/TPV",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.13936148537321608,
+    "sd": 0.1019499763333475,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/TPV",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.05213983586167463,
+    "sd": 0.6194659238362705,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/TPV",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.24020984835380838,
+    "sd": 0.13803126510677344,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "PI/TPV",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.1727662229644626,
+    "sd": 0.20395929711428468,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/BIC",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": -0.6340016135766715,
+    "sd": 1.6411078380497583,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/BIC",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.34373946041178993,
+    "sd": 0.26597447876982,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/BIC",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": -1.5267607546321131,
+    "sd": 2.9456572429640278,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/BIC",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.25799059807667735,
+    "sd": 0.3971379635197587,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/BIC",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": -1.6475586967680562,
+    "sd": 1.7848457734262722,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/BIC",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": -1.96956138944831,
+    "sd": 1.9827973220368045,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/BIC",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": -1.4950832506395841,
+    "sd": 1.8464366370670344,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/BIC",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": -2.2013411393804665,
+    "sd": 2.880295465189228,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/BIC",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": -1.5366493276764053,
+    "sd": 1.7450794545442532,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/BIC",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": -1.4467302452470627,
+    "sd": 1.1014269227687357,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/BIC",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": -0.4686395279437578,
+    "sd": 0.7772696381489331,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/BIC",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.39802476298646355,
+    "sd": 0.2138135293674276,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/BIC",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.21044699108619436,
+    "sd": 0.2248208428535294,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/BIC",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.3602942450673294,
+    "sd": 0.23308437180791078,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/BIC",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": -1.1572118051021651,
+    "sd": 1.4862400749975577,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/BIC",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.4456444112607196,
+    "sd": 0.4831250930438212,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/CAB",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": -11.43263573207716,
+    "sd": 25.362418032263275,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/CAB",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.4423984828763919,
+    "sd": 0.5277622321610371,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/CAB",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": -11.407370644052623,
+    "sd": 25.226304015681396,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/CAB",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.49938589517235316,
+    "sd": 0.5362648911537216,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/CAB",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": -10.48751855966373,
+    "sd": 23.57534725645358,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/CAB",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": -1.7739262559407638,
+    "sd": 3.8250973923730887,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/CAB",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": -10.764512325104974,
+    "sd": 23.746103102352656,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/CAB",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": -2.840577143395168,
+    "sd": 3.2046062098746617,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/CAB",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": -9.856138076690211,
+    "sd": 21.98993198881098,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/CAB",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": -2.8410463835373334,
+    "sd": 3.195436149908508,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/CAB",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": -11.200766721396192,
+    "sd": 24.835697469526185,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/CAB",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.41411678336861757,
+    "sd": 0.6127194210159846,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/CAB",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": -10.875402514302237,
+    "sd": 23.917516895757117,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/CAB",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.4369014386826827,
+    "sd": 0.477356458712988,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/CAB",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": -9.913839925906824,
+    "sd": 23.119135289766252,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/CAB",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.33112318348407993,
+    "sd": 0.6540873522676407,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/DTG",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": -1.059780600126679,
+    "sd": 1.3773884878865543,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/DTG",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.4369927809673519,
+    "sd": 0.15776863082899298,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/DTG",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": -3.0901228614609133,
+    "sd": 3.3363137877834323,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/DTG",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.16533559147545723,
+    "sd": 0.42511551645024653,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/DTG",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": -4.780936426915319,
+    "sd": 4.984564390076537,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/DTG",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": -1.4211799462133095,
+    "sd": 1.0568705918233194,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/DTG",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": -13.276639495049508,
+    "sd": 19.643010057872562,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/DTG",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": -1.7100310229627014,
+    "sd": 1.153256130399131,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/DTG",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": -3.832806842008689,
+    "sd": 3.868347436790596,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/DTG",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": -1.310986398857032,
+    "sd": 0.9567547352482967,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/DTG",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": -3.07073789760308,
+    "sd": 5.78875175569142,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/DTG",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.36633071675091944,
+    "sd": 0.3293735928926444,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/DTG",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": -1.5051981099015257,
+    "sd": 2.2639480608112454,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/DTG",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.17412978909438348,
+    "sd": 0.5733953167333793,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/DTG",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": -2.9739376945476996,
+    "sd": 2.8490649994465196,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/DTG",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": -0.8035575214096973,
+    "sd": 0.8089050896867116,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/EVG",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.6850196094491036,
+    "sd": 0.1389471207089291,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/EVG",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6688771485038592,
+    "sd": 0.08505388059048517,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/EVG",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.7883597756133771,
+    "sd": 0.05309092792584116,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/EVG",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.8027737525519167,
+    "sd": 0.032018779332292815,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/EVG",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": 0.7744715492739849,
+    "sd": 0.049498518798490244,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/EVG",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5872721799927817,
+    "sd": 0.10371061757248931,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/EVG",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.8021324050443697,
+    "sd": 0.04643740246497663,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/EVG",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5943102051760774,
+    "sd": 0.08703578994630617,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/EVG",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.8032368261792886,
+    "sd": 0.04406970521161243,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/EVG",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6080871070396293,
+    "sd": 0.08410670937909165,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/EVG",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": 0.6051906322836273,
+    "sd": 0.17780786502034474,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/EVG",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.688251949075467,
+    "sd": 0.04682273555856724,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/EVG",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.7536586704426776,
+    "sd": 0.050299757686656954,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/EVG",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6479224375929795,
+    "sd": 0.0666746212565817,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/EVG",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.6874159944569733,
+    "sd": 0.06792561680321116,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/EVG",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.38558126360697054,
+    "sd": 0.17942518370448682,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/RAL",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.6654535861698447,
+    "sd": 0.06932051710785124,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/RAL",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.7213669474001753,
+    "sd": 0.04096819846342624,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/RAL",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.7626765044537409,
+    "sd": 0.08235831328986243,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/RAL",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.8256700688415505,
+    "sd": 0.05700182391563699,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/RAL",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": 0.5887886410944828,
+    "sd": 0.05966830703209126,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/RAL",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.34255567842404433,
+    "sd": 0.23480283786728204,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/RAL",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.6413981594794435,
+    "sd": 0.034704861928248495,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/RAL",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.43330433677170943,
+    "sd": 0.10028235427137537,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/RAL",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.6420390551176236,
+    "sd": 0.029232043194710768,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/RAL",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.46497240413240065,
+    "sd": 0.08842390325789296,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/RAL",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": 0.6796514220486716,
+    "sd": 0.09951211501422362,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/RAL",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.7741412321931593,
+    "sd": 0.06120255167981299,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/RAL",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.5753677390065797,
+    "sd": 0.15651227798901138,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/RAL",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5668226443324115,
+    "sd": 0.11425242467955207,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/RAL",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.6600118771438013,
+    "sd": 0.07682240174553666,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "INI/RAL",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.48121392912637456,
+    "sd": 0.13586984957781062,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "CAI/LEN",
+    "method": "DIPS-PR",
+    "metric": "R2",
+    "mean": 0.63547270290591,
+    "sd": 0.13702910695973297,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "CAI/LEN",
+    "method": "DIPS-PR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5745377709351349,
+    "sd": 0.1828350884714467,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "CAI/LEN",
+    "method": "RandomForest",
+    "metric": "R2",
+    "mean": 0.7528868660462275,
+    "sd": 0.14475974711168907,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "CAI/LEN",
+    "method": "RandomForest",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.7175106380959883,
+    "sd": 0.1570056955206071,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "CAI/LEN",
+    "method": "Ridge",
+    "metric": "R2",
+    "mean": 0.7308782355835615,
+    "sd": 0.12410138679551777,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "CAI/LEN",
+    "method": "Ridge",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6726486442415877,
+    "sd": 0.10986846391106235,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "CAI/LEN",
+    "method": "Lasso",
+    "metric": "R2",
+    "mean": 0.7307873269652065,
+    "sd": 0.12243675248728093,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "CAI/LEN",
+    "method": "Lasso",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6781829524469642,
+    "sd": 0.11839265317204907,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "CAI/LEN",
+    "method": "ElasticNet",
+    "metric": "R2",
+    "mean": 0.7274847983582938,
+    "sd": 0.12721712042016473,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "CAI/LEN",
+    "method": "ElasticNet",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6647938185896148,
+    "sd": 0.11455402583416477,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "CAI/LEN",
+    "method": "PoissonGLM",
+    "metric": "R2",
+    "mean": 0.618844038401372,
+    "sd": 0.11099795599626826,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "CAI/LEN",
+    "method": "PoissonGLM",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.597547569728443,
+    "sd": 0.1176104945124922,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "CAI/LEN",
+    "method": "RBF-SVR",
+    "metric": "R2",
+    "mean": 0.7549672018832305,
+    "sd": 0.13726644472018196,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "CAI/LEN",
+    "method": "RBF-SVR",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.5806807730542571,
+    "sd": 0.3601975310792714,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "CAI/LEN",
+    "method": "MLP",
+    "metric": "R2",
+    "mean": 0.6935184541069631,
+    "sd": 0.1259498366486722,
+    "n": 5,
+    "ddof": 1
+  },
+  {
+    "table": "tab:hiv_other",
+    "endpoint": "CAI/LEN",
+    "method": "MLP",
+    "metric": "PseudoR2_train_null",
+    "mean": 0.6141532674971998,
+    "sd": 0.15990335915177498,
+    "n": 5,
+    "ddof": 1
+  }
+]

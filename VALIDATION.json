@@ -1,0 +1,38 @@
+{
+  "release": "2026.10.06",
+  "date": "2026-10-06",
+  "manuscript_revision": "2026-10-01",
+  "full_production_training_rerun": false,
+  "environment": {
+    "os": "macOS",
+    "python": "3.12.14",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "threadpoolctl": "3.6.0",
+    "pytest": "8.4.2"
+  },
+  "tests": {
+    "passed": 43,
+    "failed": 0,
+    "command": "python reproduce.py test -q"
+  },
+  "synthetic_input_pairs_verified": 45,
+  "regenerated_count_length_datasets": 40,
+  "hiv_source_files_verified": 5,
+  "hiv_endpoint_split_fingerprints_verified": 125,
+  "archived_summary_cells_recomputed": 561,
+  "pruning_table_rows_verified": 7,
+  "displayed_ablation_rows_verified": 9,
+  "archived_rule_annotations_verified": 1451,
+  "small_path_and_independent_audit_tests": "passed",
+  "one_original_synthetic_Ridge_job": "selected alpha100 matches historical run; maximum stored-metric absolute difference 8.731149137020111e-11",
+  "external_lcm_tiny_dictionary_check": "passed; compiled from hash-checked local official source; source archive and binary not distributed",
+  "linux_ci": "configured; not yet observed during local validation",
+  "limitations": [
+    "No new full production experiment during packaging.",
+    "Historical raw server jobs and individual HIV records are not bundled.",
+    "Archived summary reconstruction is not fresh training.",
+    "Floating-point results and timing can vary by hardware and platform."
+  ]
+}

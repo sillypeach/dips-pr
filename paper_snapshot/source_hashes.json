@@ -1,0 +1,13 @@
+{
+  "description": "SHA-256 of approved manuscript numerical supplement sources before omitting operational source paths from the ablation summary. Individual HIV response rows are not included.",
+  "source_sha256": {
+    "paper_table_values_synthetic.json": "aca8a1f227c3a8745cec6b0967ecf2a3b724369d2935cbefac2baacb436d4d95",
+    "paper_table_values_hiv.json": "7b67ce53e6d1fc8c85a47cb5914d9f594e070581642c33724573ad0cc58d4d35",
+    "hiv_repeated_split_summary.json": "7608695fc85eedfbd584f434cbf6bd4cb0ffcdadf57427efd0e712d2225e1191",
+    "hiv_all_cvmin_terms.csv": "63b66a36972e6ca11977bcaba520093acefd4fad1c8bdf4ba899e1c144174380",
+    "hiv_term_mutation_annotations.csv": "92f1c2ddf7fd912be90af9b165181a5435e17f1dcc397c4ab84dda7296a76fea",
+    "component_ablation_summary.json": "96326a7f42f8abc5a378134f4476273005672d6e6dba1a9659b8d6a1afcfc308",
+    "pruning_complete_conditions.json": "f1ea931ed3fe94f3ad56b5162db1d6b6cff8a9e0e3926a270c987e44ad483124",
+    "annotation_method.py": "953aeca661a4c6c676b2cb2138422a9a46230d9853aec848a34aa7be00fa2671"
+  }
+}

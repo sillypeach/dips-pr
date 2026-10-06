@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying DIPS-PR manuscript and this versioned software release."
+title: "DIPS-PR: reproducible regularization-path experiments"
+type: software
+version: "2026.10.06"
+date-released: "2026-10-06"
+repository-code: "https://github.com/sillypeach/dips-pr"
+authors:
+  - family-names: Tao
+    given-names: Ran
+  - family-names: Chen
+    given-names: Minrui
+  - family-names: Saigo
+    given-names: Hiroto

@@ -1,0 +1,21 @@
+{
+  "origin": "hiv_repeated_split_20260930_v1",
+  "files": {
+    "audit/model.py": "a510420c7e0bfc4fbeb2032c2ce795fe27715aefc4ff87229c70d8739129adbe",
+    "prepare_study.py": "01cc25d62ef47d420da73b48bd340c92cf8fba35648f1245018ad75279b796cd",
+    "source/aggregate_repeats.py": "7f556d879a21859e8ffae56cfda757c1ddc4ab8068f2b0ba18f6c501e009f586",
+    "source/analyze_endpoint.py": "23988cc2a338e7f7971cabff51c58da8613ee10e3f74ed41f49e657fae4d4f4e",
+    "source/common.py": "f5abc75585d578ac27b4e697bf075f633e0d2b8dde7b7df87ebd3846c00d4217",
+    "source/dispatch.py": "40cb7add9580d514e41dd53d1ca45be88652c45ec02e102ecf71c06c40a386ac",
+    "source/hiv_baseline.py": "f77fad19c8e49d5afbaac7513e76cfb03ec60f256b16d25afbcdb5222b0c5cd9",
+    "source/hiv_dips.py": "4ea88f754cbeca8f7a756becac7a218df1b1dfa7a90d6455379360d69b4397d1",
+    "source/hiv_nonlinear_baselines.py": "985b137c34bac1bff44c7c620d7bda5e061c9bdc0478e8f080ee94cf54fe7d10",
+    "source/hiv_shared.py": "45e0504a469c1f5a98915a550a80adbe54011a2a520712a11ea4583638edccea",
+    "source/model.py": "97c751a3e334a9b205c5a9b86b4e94f15cb834d96a3d534918be222168553aaf",
+    "source/path_staged_solver.py": "5f7fbc9ba8e41ab234ca28d2e2b96182a10f38647da4622c92e4c77e9d6f03c0",
+    "source/regularization_path_experiment.py": "8420efd3feda05a2aecc432423b84e654f94d0042c91729020f6212c24fbda63",
+    "source/run_study.py": "ea65916336b3636cf2458b76b9e997766167c4d2c25a2ef6e36f2310b1e111f7",
+    "source/utils.py": "12c7210df5e04d95adbb7173ecd099d2678fde752d9edc050dd11383a502728d",
+    "source/uv_only_solver.py": "95b423ef72e04ac1c4807c48380f519c02e2f051898fbc71ea91c80c304d6fe0"
+  }
+}
